@@ -1,9 +1,4 @@
 <?php
-// SPDX-FileCopyrightText: 2021 Weymeirsch und Langer GbR
-// SPDX-Author: Jan Weymeirsch
-//
-// SPDX-License-Identifier: AGPL-3.0-only
-
 // Load config files
 list($pwd) = preg_replace('/\/[^\/]+$/', "/", get_included_files());
 $conf_path = $pwd . "conf/common.php";

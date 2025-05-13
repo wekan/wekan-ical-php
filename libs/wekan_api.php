@@ -1,9 +1,4 @@
 <?php
-// SPDX-FileCopyrightText: 2021 Weymeirsch und Langer GbR
-// SPDX-Author: Jan Weymeirsch
-//
-// SPDX-License-Identifier: AGPL-3.0-only
-
 function wekan_api_call($url, $path, $auth = NULL, $payload = NULL) {
 
     // initilise connection
